@@ -23,15 +23,15 @@ class Solution {
    
 
 //solution:2 
-    public boolean containsDuplicate(int[] nums) {
-        Set set = new HashSet();
-        for(int num : nums) {
-        if(!set.add(num)) {
-        return true;
-        }
-        }
-        return false;
-        }
+public boolean containsDuplicate(int[] nums) {
+    Set set = new HashSet();
+    for(int num : nums) {
+    if(!set.add(num)) {
+    return true;
+    }
+    }
+    return false;
+    }
 
  //soluiton 3
      public boolean containsDuplicate(int[] nums) {
